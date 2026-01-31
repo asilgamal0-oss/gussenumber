@@ -1,0 +1,90 @@
+*{
+padding: 0;
+margin: 0;
+}
+.main-page{
+width: 100%;
+height: 100vh;
+background-image: url(king-1846807_1280.jpg       );
+background-size: cover;
+background-position: center;
+display: flex;
+justify-content: center;
+align-items: center;
+}
+.main-parts{
+width: 50%;
+font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.part1{
+background-color: white;
+text-align: center;
+    text-transform: capitalize;
+padding-top: 20px;
+padding-bottom: 20px;
+border-radius: 10px;
+}
+.part2,  .game-result {
+background-color: whitesmoke;
+margin-top: 20PX;
+padding-top: 20PX;
+padding-bottom: 20PX;
+border-radius: 5PX;
+}
+.part2 input{
+    border: 0;
+width: 80%;
+padding-top: 10px;
+padding-bottom: 10px;
+padding-left: 10px;
+border: 1px gray solid;
+border-radius: 5px;
+outline: 0;
+box-sizing: border-box;
+}
+.part2{
+    display: flex;
+   justify-content: space-around;
+}
+.part2 button{
+background-color: rgb(47, 44, 44);
+color: whitesmoke;
+text-transform: uppercase;
+border: 0;
+padding: 10px 14px;
+border-radius: 5px;
+}
+.game-result{
+padding-left: 10px;
+text-transform: capitalize;
+}
+  .game-result p{
+margin-top: 20px;
+margin-bottom: 20px;
+}
+.game-result ul {
+list-style-position: inside;
+}
+.game-result ul li{
+    margin-top: 10px;
+}
+
+@media screen and (min-width:0px) and (max-width: 1000px){
+    .part2 button{
+        width: 90%;
+        margin-top: 20px;
+    }
+    .part2 input{
+        width: 90%;
+    }
+    .part2 {
+       flex-direction: column;
+       align-items: center;
+    }
+    h2{
+        font-size: 17px;
+    }
+}
+
+
+
