@@ -10,10 +10,10 @@ function nmberguss(){
 
 // condition
 
-if( guessnumbervalue < 0|| guessnumbervalue > 100|| guessnumbervalue == ''){
+if( guessnumbervalue <= 0|| guessnumbervalue > 100|| guessnumbervalue == ''){
 Swal.fire({
-  title:' there is no number gussed',
-  text: "you must guss number between 1 to 100",
+  title:' There Is No Number Gussed',
+  text: "You Must Guess Number  From 1 to 100",
   icon: "error"
 });
 }
@@ -61,6 +61,7 @@ else if(ruselt == 'correct'){
 gussedItemList.appendChild(item)
 
 }
+
 
 
 
